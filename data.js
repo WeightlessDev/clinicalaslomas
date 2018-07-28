@@ -20,30 +20,30 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 0.5111204558276015,
-        "pitch": 0.01565185790234125,
+        "yaw": 0.6669044234594246,
+        "pitch": 0.011287062269868642,
         "fov": 1.5547512182991647
       },
       "linkHotspots": [
         {
-          "yaw": 0.9623102735925464,
-          "pitch": -0.06303066992999362,
+          "yaw": 0.970629156308263,
+          "pitch": -0.07409926324839944,
           "rotation": 0,
-          "target": "1-pasillo-1"
+          "target": "1-nivel-1---entrada"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.2988805234547982,
-          "pitch": -0.01772600339131003,
-          "title": "Clinicas La Loma Escalon<br>",
-          "text": "<br>3a Calle Poniente #200, Colonia Escalon, San Salvador, El Salvador<br>"
+          "yaw": 0.9680481783435226,
+          "pitch": 0.09185528882588301,
+          "title": "Clinicas La Loma<br>",
+          "text": "<div>3a Calle Poniente #200, Colonia Escalon, San Salvador, El Salvador</div><div><br></div><div><br></div><div>Tel: 2510-7696</div><div>Cel: 7899-3936</div><div><br></div><div>salvador.sandoval@grupoamate.com.sv</div><div>http://laloma.grupoamate.com/<br></div>"
         }
       ]
     },
     {
-      "id": "1-pasillo-1",
-      "name": "Pasillo 1",
+      "id": "1-nivel-1---entrada",
+      "name": "Nivel 1 - Entrada",
       "levels": [
         {
           "tileSize": 256,
@@ -67,14 +67,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.1796675115165396,
-          "pitch": 0.0032491183531746515,
+          "yaw": -0.1572022621991085,
+          "pitch": -0.00978442184500139,
           "rotation": 0,
-          "target": "2-pasillo-2"
+          "target": "2-nivel-1---entrada-de-parqueo"
         },
         {
-          "yaw": 2.6103024051746697,
-          "pitch": -0.04703096726111511,
+          "yaw": 2.6048618284145846,
+          "pitch": -0.03422073009039295,
           "rotation": 0,
           "target": "0-entrada-principal"
         }
@@ -82,8 +82,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "2-pasillo-2",
-      "name": "Pasillo 2",
+      "id": "2-nivel-1---entrada-de-parqueo",
+      "name": "Nivel 1 - Entrada de parqueo",
       "levels": [
         {
           "tileSize": 256,
@@ -101,356 +101,349 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -1.8987881939908817,
-        "pitch": -0.03081098288845041,
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.4935745961327136,
+          "pitch": -0.26643366937587665,
+          "rotation": 0,
+          "target": "3-nivel-2---recepcion"
+        },
+        {
+          "yaw": -0.738207735539822,
+          "pitch": 0.022301413040269225,
+          "rotation": 0,
+          "target": "1-nivel-1---entrada"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-nivel-2---recepcion",
+      "name": "Nivel 2 - Recepcion",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 3.034539682586706,
+        "pitch": 0.1408498803288012,
         "fov": 1.5547512182991647
       },
       "linkHotspots": [
         {
-          "yaw": -2.5092556833846107,
-          "pitch": -0.2707179150884418,
+          "yaw": 2.730537033014805,
+          "pitch": -0.0032833622574273136,
           "rotation": 0,
-          "target": "3-recepcion-n2"
+          "target": "4-nivel-2---sala"
         },
         {
-          "yaw": -0.7300221391355421,
-          "pitch": 0.032266057004546767,
+          "yaw": 0.7302098501269434,
+          "pitch": 0.19611424296219937,
           "rotation": 0,
-          "target": "1-pasillo-1"
+          "target": "2-nivel-1---entrada-de-parqueo"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-nivel-2---sala",
+      "name": "Nivel 2 - Sala",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -0.6249243727827185,
+        "pitch": 0.1043457193489381,
+        "fov": 1.5547512182991647
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.9829610026154967,
+          "pitch": 0.07300965109791946,
+          "rotation": 0,
+          "target": "3-nivel-2---recepcion"
+        },
+        {
+          "yaw": 0.09949210920512996,
+          "pitch": 0.011547515193329971,
+          "rotation": 0,
+          "target": "5-nivel-2---pasillo-i"
+        },
+        {
+          "yaw": 2.537151407669322,
+          "pitch": -0.08236541475479342,
+          "rotation": 0,
+          "target": "10-nivel-2---clinica-iii"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-nivel-2---pasillo-i",
+      "name": "Nivel 2 - Pasillo I",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.627474607776879,
+        "pitch": 0.09651571054243746,
+        "fov": 1.5547512182991647
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.7027578742862364,
+          "pitch": -0.02802232003348948,
+          "rotation": 0,
+          "target": "9-nivel-2---clinica-ii"
+        },
+        {
+          "yaw": 3.0195885233086175,
+          "pitch": -0.00790853467123398,
+          "rotation": 0,
+          "target": "6-nivel-2---pasillo-ii"
+        },
+        {
+          "yaw": 1.2977692161554515,
+          "pitch": -0.02087322372511835,
+          "rotation": 0,
+          "target": "4-nivel-2---sala"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-nivel-2---pasillo-ii",
+      "name": "Nivel 2 - Pasillo II",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -3.009404086921702,
+        "pitch": 0.07602814174965644,
+        "fov": 1.5547512182991647
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.6355252946194287,
+          "pitch": 0.012218948217128656,
+          "rotation": 0,
+          "target": "8-nivel-2---clinica-i"
+        },
+        {
+          "yaw": 1.2673490883170366,
+          "pitch": -0.05610019184415371,
+          "rotation": 0,
+          "target": "7-nivel-2---bao"
+        },
+        {
+          "yaw": 0.1986895904321102,
+          "pitch": -0.030965915081825557,
+          "rotation": 0,
+          "target": "5-nivel-2---pasillo-i"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-nivel-2---bao",
+      "name": "Nivel 2 - Baño",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 1.3556666106053008,
+        "pitch": 0.02347778685350832,
+        "fov": 1.5547512182991647
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7528146833308877,
+          "pitch": 0.03653716578188693,
+          "rotation": 0,
+          "target": "6-nivel-2---pasillo-ii"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-nivel-2---clinica-i",
+      "name": "Nivel 2 - Clinica I",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 2.9895591691529573,
+        "pitch": 0.05646915503154304,
+        "fov": 1.5547512182991647
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.3263240358793205,
+          "pitch": -0.013718947559237193,
+          "rotation": 0,
+          "target": "6-nivel-2---pasillo-ii"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-nivel-2---clinica-ii",
+      "name": "Nivel 2 - Clinica II",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.5044033340661658,
+          "pitch": -0.00831097355716004,
+          "rotation": 0,
+          "target": "5-nivel-2---pasillo-i"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-nivel-2---clinica-iii",
+      "name": "Nivel 2 - Clinica III",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -1.1799693259555717,
+        "pitch": -0.005217285967447083,
+        "fov": 1.5547512182991647
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.9013506510120264,
+          "pitch": -0.025673875947438418,
+          "rotation": 0,
+          "target": "4-nivel-2---sala"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.7849801082166366,
-          "pitch": -0.048696986431949085,
-          "title": "Parqueo",
-          "text": "Parque interno<br>"
-        }
-      ]
-    },
-    {
-      "id": "3-recepcion-n2",
-      "name": "Recepcion N2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 3.0860551914738474,
-        "pitch": 0.13079225707908293,
-        "fov": 1.5547512182991647
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.735981337540294,
-          "pitch": 0.03317634368785427,
-          "rotation": 0,
-          "target": "4-sala-n2"
-        },
-        {
-          "yaw": 0.7659747200651452,
-          "pitch": 0.20987020350118435,
-          "rotation": 0,
-          "target": "2-pasillo-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-sala-n2",
-      "name": "Sala N2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.16817585120197798,
-          "pitch": 0.009798994060266963,
-          "rotation": 0,
-          "target": "5-pasillo-1-n2"
-        },
-        {
-          "yaw": 2.5401601733312393,
-          "pitch": -0.07792620893167879,
-          "rotation": 0,
-          "target": "10-clinica-3-n2"
-        },
-        {
-          "yaw": -0.9649465068638108,
-          "pitch": 0.08848813464940086,
-          "rotation": 0,
-          "target": "3-recepcion-n2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-pasillo-1-n2",
-      "name": "Pasillo 1 N2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -3.0627485399628824,
-        "pitch": 0.06079647960420331,
-        "fov": 1.5547512182991647
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.030928280537985,
-          "pitch": 0.053223636514699635,
-          "rotation": 0,
-          "target": "6-pasillo-2-n2"
-        },
-        {
-          "yaw": -1.7019626464848905,
-          "pitch": 0.1424479093104658,
-          "rotation": 0,
-          "target": "9-clinica-2-n2"
-        },
-        {
-          "yaw": 1.2319391898859102,
-          "pitch": -0.05161553403589991,
-          "rotation": 0,
-          "target": "4-sala-n2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-pasillo-2-n2",
-      "name": "Pasillo 2 N2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.255772812681677,
-          "pitch": -0.0771782751375607,
-          "rotation": 0,
-          "target": "7-bao-visitas-n2"
-        },
-        {
-          "yaw": -2.6388658751265854,
-          "pitch": 0.01913343150707192,
-          "rotation": 0,
-          "target": "8-clinica-1-n2"
-        },
-        {
-          "yaw": 0.12506134726232787,
-          "pitch": 0.06908720135147739,
-          "rotation": 0,
-          "target": "5-pasillo-1-n2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-bao-visitas-n2",
-      "name": "Baño visitas N2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 1.3123603305207432,
-        "pitch": 0.21655698994658223,
-        "fov": 1.5547512182991647
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.7178777216696339,
-          "pitch": 0.0651339788666867,
-          "rotation": 0,
-          "target": "6-pasillo-2-n2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "8-clinica-1-n2",
-      "name": "Clinica 1 N2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.3472572558225853,
-          "pitch": -0.026070245802461756,
-          "rotation": 0,
-          "target": "6-pasillo-2-n2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-clinica-2-n2",
-      "name": "Clinica 2 N2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.5071808706845076,
-          "pitch": -0.04461823291029887,
-          "rotation": 0,
-          "target": "5-pasillo-1-n2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "10-clinica-3-n2",
-      "name": "Clinica 3 N2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.8656628551639214,
-          "pitch": -0.04682379998607189,
-          "rotation": 0,
-          "target": "4-sala-n2"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.46960161394472166,
-          "pitch": -0.08528667611769691,
-          "title": "Baño Privado<br>",
-          "text": "Baño privado dentro de la clinica<br>"
+          "yaw": -0.4767799184407373,
+          "pitch": -0.05471244465916314,
+          "title": "Clinica III<br>",
+          "text": "Baño privado<br>"
         }
       ]
     }
   ],
-  "name": "Clinicas La Loma",
+  "name": "Clinicas La Loma - Escalon",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
